@@ -1,0 +1,407 @@
+:root {
+    --chinh: #b19e5a;
+}
+
+.menu {
+    width: 100%;
+    background: var(--chinh);
+}
+
+.menu .navbar-brand {
+    font-size: 40px;
+    color: white;
+}
+
+.menu .navbar-nav {
+    margin-top: 14px;
+    font-size: 25px;
+}
+
+.menu .navbar-nav .link {
+    color: white;
+}
+
+.menu button {
+    margin-top: 20px;
+}
+
+.menu .navbar-toggle {
+    background-color: var(--chinh);
+    border-color: var(--chinh);
+}
+
+.menu-right {
+    float: right;
+}
+
+.advertise {
+    position: relative;
+}
+
+.logo-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    color: #430aae;
+    font-size: 40px;
+}
+
+.logoimg {
+    width: 100%;
+}
+
+.reputation {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.straight {
+    background: var(--chinh);
+    width: 2px;
+    height: 300px;
+}
+
+.reputation-icon1 {
+    padding: 30px;
+}
+
+.reputation-icon2 {
+    padding: 30px;
+}
+
+.reputation-icon3 {
+    padding: 30px;
+}
+
+.bi {
+    color: red;
+}
+
+.logo {
+    width: 100%;
+}
+
+.active .deco {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.icon2 {
+    color: var(--chinh);
+}
+
+.img-Trademark {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.Trademark h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.Trademark img {
+    padding: 20px;
+    width: 100%;
+}
+
+.mony {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mony h1 {
+    font-size: 40px;
+}
+
+.mony p {
+    font-size: 20px;
+}
+
+.row-card {
+    border: 1px solid black;
+}
+
+.card {
+    background: var(--chinh);
+    padding: 5px;
+}
+
+.card-item h2 {
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+
+.card-item p {
+    font-size: 20px;
+    color: black;
+}
+.card-item button {
+    width: 40%;
+}
+.btn {
+    text-align: center;
+    margin-bottom: 5px;
+    background: var(--chinh);
+    color: black;
+}
+
+.btn1 {
+    border: 2px solid #fff;
+}
+
+.btn:hover {
+    background: #fff;
+    color: black;
+
+}
+
+.btn1:hover {
+    border: 1px solid #fff;
+}
+
+.address {
+    height: auto;
+    padding: 0 60px;
+    background: var(--chinh);
+}
+
+.address-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.address-menu2 {
+    display: grid;
+    grid-template-columns: auto 10px auto auto auto;
+}
+
+.address h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.no {
+    display: none;
+}
+
+.straight1 {
+    background: white;
+    width: 2px;
+    height: 200px;
+}
+
+.straight2 {
+    background: white;
+    width: 2px;
+    height: 150px;
+}
+
+.menu2 a {
+    padding-top: 10px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.menu3 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.menu4 {
+    padding-left: 20px;
+    padding-top: 30px;
+    display: flex;
+    margin: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu4 i {
+    margin: 5px;
+}
+
+.menu5 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.menu5 p{
+    margin: 0;
+}
+.fooder {
+    background: #605015;
+    display: grid;
+}
+
+.fooder-menu {
+    
+    margin: 0 50px;
+}
+.fooder-left
+{   
+    margin-top: 50px;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+}
+.fooder-right{
+    font-size: 20px;
+    color: #fff;
+    float: right;
+}
+@media (max-width: 600px) {
+    .logo-name {
+        text-align: center;
+        font-size: 25px;
+        top: 40%;
+    }
+
+    .menu .navbar-brand {
+        font-size: 30px;
+    }
+
+    .menu-right {
+        float: left;
+    }
+
+    .straight {
+        display: none;
+    }
+
+    .reputation {
+        display: grid;
+        grid-template-columns: none;
+
+    }
+
+    .reputation-icon1 .reputation-icon2 .reputation-icon3 {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+
+    .reputation-icon1 .icon1 {
+        text-align: left;
+    }
+
+    .reputation-icon1 .bi {
+        float: left;
+    }
+
+    .reputation-icon2 {
+        float: right;
+        padding: 20px 0;
+    }
+
+    .reputation-icon2 .bi {
+        float: right;
+    }
+
+    .reputation-icon3 {
+        float: left;
+    }
+
+    .reputation-icon3 .bi {
+        float: left;
+    }
+
+    .mony-item {
+        margin-bottom: 20px;
+    }
+    .btn {
+       
+        border: 1px solid black;
+    }
+
+    .btn1 {
+        height: 15%;
+    }
+
+    .address-menu {
+        grid-template-columns: none;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .address-menu2 {
+        grid-template-columns: none;
+        text-align: center;
+    }
+
+    .no {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 20%;
+    }
+
+    .no1 {
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn-menu {
+        background-color: #333;
+        border: 1px solid #333;
+    }
+
+    .btn-menu:hover {
+        background-color: var(--chinh);
+    }
+
+    .menu2 {
+        display: none;
+        text-align: center;
+    }
+
+    .menu3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .menu4 {
+        display: block;
+    }
+
+    .straight1 {
+        display: none;
+    }
+
+
+    .straight2 {
+        background: white;
+        width: 270px;
+        height: 2px;
+    }
+    .fooder-left{
+        float: none;
+    }
+    .fooder-right{
+        float: none;
+    }
+}
